@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href = "styles/lab04.css" rel = "stylesheet" />
   <meta charset="utf-8" />
   <meta name="description" content="Demonstrates some basic HTML content elements and CSS" />
   <meta name="keywords" content="HTML5, tags" />
@@ -13,7 +14,7 @@
    <header>
      <h1>HTML 5 Structure and Content Elements with some CSS</h1>
      <nav>
-         <a href="#headings">Heading and Paragraphs</a> 
+         <a href="#headings">Headings and Paragraphs</a> 
          <a href="#sc">Special Characters</a> 
          <a href="#lists">Lists</a> 
          <a href="#tables">Tables</a>
@@ -30,7 +31,7 @@
       </aside>
       <h2 id="headings">Headings and Paragraphs </h2>
       <p>Headings and paragraphs are BLOCK elements</p>
-      <h3>Headings</h3>
+      <h3 id="headings-sub">Headings</h3>
       <p>There are 6 levels of heading. Headings are logical marked. Do not skip levels. If you want to change the size of a heading, don't change its level - change the CSS.</p>
       <h3>Paragraphs</h3>
       <p>Paragraphs contain the body text of a web page. You cannot put another block element inside a paragraph.</p>
@@ -42,7 +43,7 @@
       
       <!-- Comments can be useful to indicate various sections of markup-->
       <!--Lists-->
-      <h2 id="list">Lists</h2>
+      <h2 id="lists">Lists</h2>
       <p>There are three types of lists: Unordered and Ordered lists, and Definition Lists</p>
       <h3>Unordered List</h3>
 	  <ul>
@@ -94,13 +95,13 @@
         </thead>
         <tbody>
          <tr>
-           <th scope="row">Jan</th>
+           <th scope="row" class="month">Jan</th>
            <td>$60</td>
            <td>$40</td>
            <td>$100</td>
          </tr>
          <tr>
-           <th scope="row">Feb</th>
+           <th scope="row" class="month">Feb</th>
            <td>$40</td>
            <td>$40</td>
            <td>$80</td>
